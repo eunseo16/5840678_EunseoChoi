@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -37,7 +36,7 @@ void ThreadTreeInOrder(ThreadNode* t) {
     }
 }
 
-TreeNode* insert_tree_node(TreeNode* node, int data) {
+TreeNode* insert_bst(TreeNode* node, int data) {
     if (node == NULL) {
         TreeNode* temp = (TreeNode*)malloc(sizeof(TreeNode));
         temp->data = data;
@@ -45,10 +44,10 @@ TreeNode* insert_tree_node(TreeNode* node, int data) {
         return temp;
     }
     if (data < node->data) {
-        node->left = insert_tree_node(node->left, data);
+        node->left = insert_bst(node->left, data);
     }
     else {
-        node->right = insert_tree_node(node->right, data);
+        node->right = insert_bst(node->right, data);
     }
     return node;
 }
@@ -70,10 +69,10 @@ ThreadNode* insert_thread_node(ThreadNode* node, int data) {
     return node;
 }
 
-TreeNode* GenerateBinaryTree(int inputData[], int size) {
+TreeNode* GenerateBST(int inputData[], int size) {
     TreeNode* root = NULL;
     for (int i = 0; i < size; i++) {
-        root = insert_tree_node(root, inputData[i]);
+        root = insert_bst(root, inputData[i]);
     }
     return root;
 }
@@ -120,7 +119,7 @@ int main() {
     int inputData[] = { 4, 1, 9, 13, 15, 3, 6, 14, 7, 10, 12, 2, 5, 8, 11 };
     int size = sizeof(inputData) / sizeof(inputData[0]);
 
-    TreeNode* root = GenerateBinaryTree(inputData, size);
+    TreeNode* root = GenerateBST(inputData, size);
     printf("Binary tree inorder: ");
     BinaryTreeInOrder(root);
     printf("\n");
