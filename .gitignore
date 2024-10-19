@@ -1,0 +1,26 @@
+﻿################################################################################
+# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
+################################################################################
+
+/.vs/5840678_EunseoChoi/FileContentIndex/50a88ee2-395b-42e6-ac82-01f2a827d6c1.vsidx
+*.wsuo
+*.db
+/5-maxheaptree/Project3.vcxproj.user
+/5-maxheaptree/Project3/x64/Debug/Project3.log
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/Project3.lastbuildstate
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/CL.write.1.tlog
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/CL.read.1.tlog
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/CL.read.1.tlog
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/CL.read.1.tlog
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/CL.read.1.tlog
+/5-maxheaptree/.vs/5-maxheaptree/v17/ipch/AutoPCH/d5c74f4e7c480624/MAIN.ipch
+/5-maxheaptree/.vs/5-maxheaptree/v17/ipch/AutoPCH/f1b8ff395b06850c/MAX_HEAP.ipch
+/5-maxheaptree/.vs/Project3/FileContentIndex/c8d98908-1b31-4fdb-b2c2-4bd96c4c583a.vsidx
+/5-maxheaptree/Project3/x64/Debug/Project3.ilk
+/5-maxheaptree/Project3/x64/Debug/Project3.ilk
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/CL.command.1.tlog
+/5-maxheaptree/Project3/x64/Debug/vc143.pdb
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/link.write.1.tlog
+/5-maxheaptree/Project3/x64/Debug/Project3.tlog/link.secondary.1.tlog
+/5-maxheaptree/Project3/x64/Debug/vc143.idb
+/5-maxheaptree/Project3/x64/Debug/Project3.exe.recipe
